@@ -45,7 +45,7 @@ const Login = () => {
         value={email} className="inputboxs"/><br></br>
              {error && !email && <span className="invalidlogin">Enter Valid email</span>}
       <input
-        type="passsword"
+        type="password"
         placeholder="Enter Your Password"
         onChange={(e) => setPassword(e.target.value)}
         value={password}className="inputboxs"/><br></br>

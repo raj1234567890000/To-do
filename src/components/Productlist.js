@@ -65,7 +65,7 @@ products.length>0 ? products.map((item,index)=>{
         <li>{item.price}</li>
         <li>{item.category}</li>
         <li>{item.company}</li>
-        <li><button onClick={()=>deleteProduct(item._id)}><DeleteIcon /></button></li>
+        <li><button onClick={()=>deleteProduct(item._id)}><DeleteIcon className='delete' /></button></li>
         <Link to={"/update/"+item._id}>< EditIcon  className='edit'/></Link>
       </ul>
     )

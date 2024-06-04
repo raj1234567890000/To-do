@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
    <>
-      <h1>E-com dashboard</h1>
+      
    <div className="navbars">
    { auth ?   <ul >
           <li>
